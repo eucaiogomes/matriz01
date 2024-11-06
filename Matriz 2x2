@@ -1,0 +1,45 @@
+programa
+{
+//crie 2 matrizes 2x2 com o nome A e B e insira somente valores positivos
+	
+	funcao inicio()
+	{
+		inteiro a[2][2], b[2][2], valor//ok
+
+		escreva ("--------------------\n")
+		escreva ("       Matriz A       \n")
+		escreva ("--------------------\n")
+		para(inteiro linha = 0;linha<2;linha++)//ok
+		{
+			para(inteiro coluna = 0;coluna<2;coluna++)//ok
+			{
+			escreva("Digite um valor : ")//ok
+			leia(valor)//ok
+			enquanto (valor<0){
+			escreva("Digite um valor : ")
+			leia(valor)
+			}
+			a [linha] [coluna] = valor
+			}
+		}
+
+		escreva ("--------------------\n")
+		escreva ("       Matriz B       \n")
+		escreva ("--------------------\n")
+		para(inteiro linha = 0;linha<2;linha++)
+		{
+			para(inteiro coluna = 0;coluna<2;coluna++)
+			{
+			
+			escreva("Digite um valor : ")
+			leia(valor)
+			enquanto (valor<0){
+			escreva("Digite um valor : ")
+			leia(valor)
+			}
+			b [linha] [coluna] = valor
+			
+			}
+		}
+	}
+}
