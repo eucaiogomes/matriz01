@@ -1,0 +1,25 @@
+programa
+{
+    // Chiquinho vende maçãs no sinal e quer armazenar 
+    // suas vendas diárias da semana em uma matriz 
+    // Este algoritmo irá ajudá-lo
+
+    funcao inicio()
+    {
+        real vendas[4][7], valor
+        
+        para(inteiro linha = 0; linha < 4; linha++)
+        {
+            para(inteiro coluna = 0; coluna < 7; coluna++)
+            {
+                escreva ("-------------------------\n")
+                escreva ("       Matriz Vendas       \n")
+                escreva ("-------------------------\n")
+                escreva("Digite a venda do dia: ")
+                leia(valor)
+                vendas[linha][coluna] = valor
+                limpa()
+            }
+        }
+    }
+}
