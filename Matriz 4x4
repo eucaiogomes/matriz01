@@ -1,0 +1,29 @@
+programa
+{
+//criar uma matriz valores 4x4 que so aceite valores pares
+	
+	funcao inicio()
+	{
+		inteiro valores[4][4], valor///ok
+		
+		para(inteiro linha = 0;linha<4;linha++)//ok
+		{
+			para(inteiro coluna = 0;coluna<4;coluna++)//ok
+			{
+			escreva ("-------------------------\n")
+			escreva ("       Matriz Valores       \n")
+			escreva ("-------------------------\n")
+			escreva("Digite um valor : ")
+			leia(valor)
+			enquanto(valor%2!=0)//ok
+			{
+				escreva("Digite um valor par : ")
+				leia(valor)
+				
+			}
+				valores [linha][coluna] = valor
+				limpa()
+			}
+		}
+	}
+}
