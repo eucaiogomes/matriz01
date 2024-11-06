@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+		inteiro volume[2][5], valor
+		para(inteiro linha = 0;linha<2;linha++)
+		{
+			para(inteiro coluna =0;coluna<5;coluna++)
+			{
+				escreva("Digite um numero : ")
+				leia(valor)
+				volume[linha][coluna] = valor
+			}
+		}
+		
+	}
+}
